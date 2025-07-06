@@ -21,6 +21,20 @@ cd intelligent-agent-api
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
+```
+
+### Set Up Environment Variables
+
+Create a `.env` file in the root of the `part1/` directory and add:
+```
+TOMORROW_API_KEY=your_actual_api_key_here
+```
+
+> **Note:** Do not commit `.env` to version control. It is already included in `.gitignore`.
+
+Then run the server:
+
+```bash
 uvicorn main:app --reload
 ```
 

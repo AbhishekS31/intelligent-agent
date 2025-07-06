@@ -1,9 +1,16 @@
+import os
 import requests
+from dotenv import load_dotenv
 
-API_KEY = "qRht5n8sTUo4K5d7wJdgJk2gaskzFZ6A" 
+load_dotenv()
+
+API_KEY = os.getenv("TOMORROW_API_KEY")
 
 def get_weather(city: str) -> str:
     try:
+        if not API_KEY:
+            return "Weather service not configured properly."
+
         url = f"https://api.tomorrow.io/v4/weather/forecast?location={city}&apikey={API_KEY}"
         res = requests.get(url).json()
 

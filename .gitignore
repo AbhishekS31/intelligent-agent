@@ -4,3 +4,4 @@ myenv/
 dist/
 build/
 Extra_Tools/
+part1/Tools/.env

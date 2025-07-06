@@ -5,4 +5,5 @@ typing
 requests
 pytest
 httpx
+python-dotenv
 
