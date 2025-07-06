@@ -49,9 +49,9 @@ POST /agent
 {
   "response": "Why don't scientists trust atoms? Because they make up everything!",
   "metadata": {
-    "tool_used": "joke",
+    "tool_name": "joke",
     "success": true,
-    "reason": null
+    "error_message": null
   }
 }
 ```
