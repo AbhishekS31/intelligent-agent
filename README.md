@@ -68,8 +68,8 @@ The system prompt is defined in `prompts/system_config.json`. It guides the agen
 {
   "tone": "friendly and slightly humorous",
   "fallback": {
-    "no_match": "I'm not sure how to help with that, but I’m learning!",
-    "tool_failed": "Oops! That didn’t work. Maybe try asking in a different way?"
+    "no_match": "Sorry, can't help with that.",
+    "tool_failed": "Sorry! That didn’t work. You can try again?"
   },
   "tools": {
     "weather": ["weather", "temperature", "forecast", "rain", "hot", "cold"],
