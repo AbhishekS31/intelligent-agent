@@ -1,5 +1,5 @@
 *.pyc
-Tools/__pycache__/
+part1/Tools/__pycache__/ 
 myenv/
 dist/
 build/
