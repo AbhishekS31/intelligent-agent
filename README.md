@@ -17,7 +17,7 @@ A production-grade FastAPI service that routes user prompts to intelligent tools
 
 ```bash
 git clone https://github.com/yourusername/intelligent-agent-api.git
-cd intelligent-agent-api/part1
+cd intelligent-agent-api
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
@@ -58,7 +58,7 @@ POST /agent
 
 ## System Prompt
 
-The system prompt is defined in `prompts/system_config.json`. It guides the agent behavior for:
+The system prompt is defined in `prompts/systemprompt_config.json`. It guides the agent behavior for:
 
 - Tool routing based on keywords
 - Friendly tone configuration
@@ -142,13 +142,13 @@ Your app will be live at a public URL provided by Render.
 
 ## Tools Overview
 
-- **Weather Tool (`tool_weather.py`)**  
+- **Weather Tool (`tool_1.py`)**  
   Retrieves current weather information using the Tomorrow.io external API.
 
-- **Joke Tool (`tool_joke.py`)**  
+- **Joke Tool (`tool_2.py`)**  
   Provides a random, hardcoded joke from a predefined list.
 
-- **Quote Tool (`tool_quote.py`)**  
+- **Quote Tool (`tool_3.py`)**  
   Returns a motivational or inspirational quote from a static collection.
 
 ## Evaluation Criteria Coverage
