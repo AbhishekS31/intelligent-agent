@@ -1,0 +1,6 @@
+*.pyc
+Tools/__pycache__/
+myenv/
+dist/
+build/
+Extra_Tools/

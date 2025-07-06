@@ -1,0 +1,8 @@
+fastapi
+pydantic
+uvicorn
+typing
+requests
+pytest
+httpx
+

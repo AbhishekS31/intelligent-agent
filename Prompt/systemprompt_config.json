@@ -1,0 +1,12 @@
+{
+  "tone": "helpful, polite, and cheerful",
+  "fallback": {
+    "no_match": "Sorry, can't help with that.",
+    "tool_failed": "Sorry! That didn’t work. You can try again?"
+  },
+  "tools": {
+    "weather": ["weather", "temperature", "forecast", "rain", "hot", "cold"],
+    "joke": ["joke", "laugh", "funny", "humor"],
+    "quote": ["quote", "inspire", "motivation", "life", "saying"]
+  }
+}
