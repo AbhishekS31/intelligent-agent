@@ -73,7 +73,7 @@ POST /agent
 
 ## System Prompt
 
-The system prompt is defined in `prompts/systemprompt_config.json`. It guides the agent behavior for:
+The system prompt is defined in `part1/prompts/systemprompt_config.json`. It guides the agent behavior for:
 
 - Tool routing based on keywords
 - Friendly tone configuration
@@ -99,7 +99,7 @@ The system prompt is defined in `prompts/systemprompt_config.json`. It guides th
 ### Unit Tests
 
 ```bash
-pytest testcases.py
+pytest part1/testcases.py
 ```
 
 Tests include:
@@ -112,7 +112,7 @@ Tests include:
 Run the automated rule-based evaluation:
 
 ```bash
-python evaluate.py
+python -m part1.evaluate
 ```
 
 Sample Output:
