@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from schemas import PromptRequest, PromptResponse
+from .schemas import PromptRequest, PromptResponse
 from agent import run_agent
 
 app = FastAPI(
