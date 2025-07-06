@@ -31,6 +31,7 @@ TOMORROW_API_KEY=your_actual_api_key_here
 ```
 
 > **Note:** Do not commit `.env` to version control. It is already included in `.gitignore`.
+> You can get a free API key for the Tomorrow.io weather service at [https://www.tomorrow.io/weather-api/](https://www.tomorrow.io/weather-api/)
 
 Then run the server:
 
@@ -147,9 +148,10 @@ Visit [http://localhost:8000/docs](http://localhost:8000/docs)
 3. Select your repository
 4. Use the following settings:
    - Build Command: `pip install -r requirements.txt`
-   - Start Command: `uvicorn main:app --host 0.0.0.0 --port 8000 --workers 2`
+   - Start Command: `uvicorn part1.main:app --host 0.0.0.0 --port 8000 --workers 2`
    - Environment: Python 3.11
    - Port: 8000
+   - Environment Variable : TOMORROW_API_KEY=your_weather_api_key
 5. Click "Deploy"
 
 Your app will be live at a public URL provided by Render.
