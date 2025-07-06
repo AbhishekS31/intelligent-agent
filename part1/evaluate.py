@@ -1,6 +1,6 @@
-from agent import run_agent
-from agent import load_systemprompt_config
-from schemas import PromptResponse
+from .agent import run_agent
+from .agent import load_systemprompt_config
+from .schemas import PromptResponse
 
 test_cases = [
     {

@@ -1,7 +1,7 @@
 import pytest
-from agent import run_agent
-from schemas import PromptResponse
-from agent import load_systemprompt_config
+from .agent import run_agent
+from .schemas import PromptResponse
+from .agent import load_systemprompt_config
 
 config = load_systemprompt_config()
 
