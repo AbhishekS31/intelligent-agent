@@ -3,7 +3,7 @@ from .Tools import tool_1, tool_2, tool_3
 import json
 
 def load_systemprompt_config() -> dict:
-    with open("Prompt/systemprompt_config.json") as f:
+    with open("part1/Prompt/systemprompt_config.json") as f:
         return json.load(f)
 
 def decide_tool(prompt: str, config: dict) -> str:
