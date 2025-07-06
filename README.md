@@ -84,7 +84,7 @@ The system prompt is defined in `prompts/system_config.json`. It guides the agen
 ### Unit Tests
 
 ```bash
-pytest tests/test_agent.py
+pytest testcases.py
 ```
 
 Tests include:
