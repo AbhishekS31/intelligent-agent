@@ -36,7 +36,7 @@ TOMORROW_API_KEY=your_actual_api_key_here
 Then run the server:
 
 ```bash
-uvicorn main:app --reload
+uvicorn part1.main:app --reload
 ```
 
 Visit the interactive API docs at:  
